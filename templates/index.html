@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<form method="POST" action="/submit">
+    <form>
+        <div class="mb-3">
+            <label for="zip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="zip" onchange="fetchLocation()">
+        </div>
+        <div class="mb-3">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="city" onchange="fetchLocation()">
+        </div>
+        <div class="mb-3">
+            <label for="street" class="form-label">Street</label>
+            <input type="text" class="form-control" id="street">
+        </div>
+        <div class="mb-3">
+            <label for="number" class="form-label">Number</label>
+            <input type="text" class="form-control" id="number">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</form>
+{% endblock %}
+{% block script_import %}
+<script src="{{url_for('static', filename='index.js')}}"></script>{% endblock %}
