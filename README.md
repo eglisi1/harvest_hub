@@ -13,7 +13,7 @@ brew install python
 ### Installation 🛠️
 
 ```bash
-git clone https://github.com/eglisi1/location_checker/
+git clone https://github.com/eglisi1/harvest_hub/
 ```
 
 ## Contributing 🤝
