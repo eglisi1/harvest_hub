@@ -34,7 +34,7 @@ This project aims to identify the ideal location for a distribution center for o
 
 * OpenStreetMap (OSM) for road network data.
 * Swiss Federal Statistical Office (FSO) for population data.
-* Scraped data from the Swiss Federal Office for Agriculture (FOAG) for producer locations.
+* Scraped data from "Schweizer Bauern" for producer locations.
 
 ### Tools used
 
